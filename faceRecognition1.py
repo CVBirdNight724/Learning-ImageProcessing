@@ -10,6 +10,7 @@ while(True):
     cv2.imshow('Test', frame)
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
- 
+        
+print('asd')
 capture.release()
 cv2.destroyAllWindows()
